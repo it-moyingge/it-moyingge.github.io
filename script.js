@@ -4,7 +4,7 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
 	var form = event.target;
 	var formData = new FormData(form);
 
-	fetch("https://api.github.com/repos/it-moyingge/it-moyingge.github.io/DataInfo/moyinggeInfo.json", {
+	fetch("https://api.github.com/repos/it-moyingge/it-moyingge.github.io/contents/moyinggeInfo.json", {
 			method: "PUT",
 			headers: {
 				"Authorization": "Bearer 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",
