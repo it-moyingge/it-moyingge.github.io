@@ -7,7 +7,7 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
 	fetch("https://api.github.com/repos/it-moyingge/it-moyingge.github.io/contents/moyinggeInfo.json", {
 			method: "PUT",
 			headers: {
-				"Authorization": "Bearer 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",
+				"Authorization": "Bearer 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",
 				"Content-Type": "application/json"
 			},
 			body: JSON.stringify({
